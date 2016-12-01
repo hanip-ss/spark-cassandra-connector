@@ -22,7 +22,7 @@ case class DynamicCassandraPorts(basePort: Int) extends CassandraPorts {
 }
 
 
-object DynamicCassandraPorts extends Logging {
+object DynamicCassandraPorts {
   val MaxInstances = 5
 
   val RPC_OFFSET = 0
