@@ -2,7 +2,7 @@ package org.apache.spark.sql.cassandra
 
 import scala.collection.mutable
 
-import org.apache.spark.Logging
+import com.datastax.spark.connector.util.Logging
 import org.apache.spark.sql.SaveMode._
 import org.apache.spark.sql.cassandra.DefaultSource._
 import org.apache.spark.sql.sources.{BaseRelation, CreatableRelationProvider, RelationProvider, SchemaRelationProvider}

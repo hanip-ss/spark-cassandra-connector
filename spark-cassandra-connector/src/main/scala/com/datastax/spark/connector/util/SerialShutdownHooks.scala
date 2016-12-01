@@ -2,7 +2,7 @@ package com.datastax.spark.connector.util
 
 import scala.collection.mutable
 
-import org.apache.spark.Logging
+import com.datastax.spark.connector.util.Logging
 
 private[connector] object SerialShutdownHooks extends Logging {
 
