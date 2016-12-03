@@ -4,7 +4,8 @@ import kafka.serializer.StringDecoder
 import org.apache.spark.storage.StorageLevel
 import org.apache.spark.streaming._
 import org.apache.spark.streaming.kafka.KafkaUtils
-import org.apache.spark.{Logging, SparkConf, SparkContext}
+import org.apache.spark.{SparkConf, SparkContext}
+import com.datastax.spark.connector.util.Logging
 
 import com.datastax.spark.connector.cql.CassandraConnector
 import com.datastax.spark.connector.embedded.Event.WordCount

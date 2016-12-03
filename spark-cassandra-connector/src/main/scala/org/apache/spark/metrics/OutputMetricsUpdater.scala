@@ -5,7 +5,8 @@ import java.util.concurrent.TimeUnit
 import com.codahale.metrics.Timer.Context
 import com.twitter.jsr166e.LongAdder
 import org.apache.spark.executor.{DataWriteMethod, OutputMetrics}
-import org.apache.spark.{Logging, TaskContext}
+import org.apache.spark.TaskContext
+import com.datastax.spark.connector.util.Logging
 
 import com.datastax.spark.connector.writer.{RichStatement, WriteConf}
 

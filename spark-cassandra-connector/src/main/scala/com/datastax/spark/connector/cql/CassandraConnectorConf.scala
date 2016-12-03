@@ -7,7 +7,8 @@ import scala.language.postfixOps
 import scala.util.Try
 import scala.util.control.NonFatal
 
-import org.apache.spark.{Logging, SparkConf}
+import org.apache.spark.SparkConf
+import com.datastax.spark.connector.util.Logging
 
 import com.datastax.driver.core.ProtocolOptions
 import com.datastax.spark.connector.util.{ConfigParameter, ConfigCheck}
